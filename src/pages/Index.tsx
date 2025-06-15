@@ -1,5 +1,5 @@
-
 import { BookOpen, GraduationCap, Users } from "lucide-react";
+import Navbar from "@/components/Navbar";
 
 const features = [
   {
@@ -22,6 +22,7 @@ const features = [
 const Index = () => {
   return (
     <main className="w-full min-h-screen bg-gradient-to-br from-white via-slate-50 to-blue-50 font-inter">
+      <Navbar />
       {/* Hero Section */}
       <header className="pt-24 pb-20 px-8 xl:px-0 max-w-4xl mx-auto flex flex-col items-center text-center animate-fade-in">
         <span className="inline-block text-xs font-semibold tracking-widest uppercase text-primary bg-primary/10 px-4 py-1 rounded-full mb-4 shadow-sm">Welcome to Study Mate</span>
